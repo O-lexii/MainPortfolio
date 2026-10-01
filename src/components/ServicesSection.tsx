@@ -54,7 +54,7 @@ export function ServicesSection() {
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <span className="text-primary font-mono text-sm">&lt;services&gt;</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
-              What I Can <span className="text-gradient">Help With</span>
+              Services
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               A few ways I can support your team's security posture — from testing to training.
