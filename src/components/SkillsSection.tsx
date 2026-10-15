@@ -79,7 +79,7 @@ export function SkillsSection() {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;skills&gt;</span>
+            <span className="text-primary font-mono text-sm">Skills</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Things I Use <span className="text-gradient">to Make Stuff</span>
             </h2>
@@ -167,10 +167,6 @@ export function SkillsSection() {
             </div>
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "1.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/skills&gt;</span>
-          </div>
         </div>
       </div>
     </section>

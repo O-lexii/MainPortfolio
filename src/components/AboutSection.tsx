@@ -14,7 +14,7 @@ export function AboutSection() {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;about&gt;</span>
+            <span className="text-primary font-mono text-sm">About</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               A Few Things <span className="text-gradient">About Me</span>
             </h2>
@@ -87,10 +87,6 @@ export function AboutSection() {
             </div>
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/about&gt;</span>
-          </div>
         </div>
       </div>
     </section>

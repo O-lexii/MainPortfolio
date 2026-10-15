@@ -12,7 +12,7 @@ export function CertificationsSection() {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;achievements&gt;</span>
+            <span className="text-primary font-mono text-sm">Achievements</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Certifications & <span className="text-gradient">Achievements</span>
             </h2>
@@ -48,10 +48,6 @@ export function CertificationsSection() {
             </div>
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/achievements&gt;</span>
-          </div>
         </div>
       </div>
     </section>

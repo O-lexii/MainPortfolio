@@ -32,7 +32,7 @@ export function ContactSection() {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;contact&gt;</span>
+            <span className="text-primary font-mono text-sm">Contact</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Leave Me <span className="text-gradient">A Little Note</span>
             </h2>
@@ -149,10 +149,6 @@ export function ContactSection() {
             </form>
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.5s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/contact&gt;</span>
-          </div>
         </div>
       </div>
     </section>

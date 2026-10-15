@@ -25,7 +25,7 @@ export function EducationSection() {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;education&gt;</span>
+            <span className="text-primary font-mono text-sm">Education</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Hands-On, <span className="text-gradient">Not Just Theory</span>
             </h2>
@@ -59,10 +59,6 @@ export function EducationSection() {
             </div>
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/education&gt;</span>
-          </div>
         </div>
       </div>
     </section>

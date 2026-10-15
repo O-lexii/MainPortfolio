@@ -15,6 +15,7 @@ const projects = [
     tags: ["Python", "Flask"],
     color: "primary",
     codeUrl: "#",
+    image: "/imgs/urlscope-preview.png",
   },
   {
     number: "02",
@@ -53,7 +54,7 @@ export function ProjectsSection() {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;projects&gt;</span>
+            <span className="text-primary font-mono text-sm">Projects</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Not Just <span className="text-gradient">Project Cards</span>
             </h2>
@@ -79,7 +80,15 @@ export function ProjectsSection() {
 
                 {/* Project Image */}
                 <div className="p-4 pb-0">
-                  <ImagePlaceholder label="Add project screenshot" ratio="video" />
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={`${project.title} screenshot`}
+                      className="w-full aspect-video object-cover object-top rounded-lg border border-border"
+                    />
+                  ) : (
+                    <ImagePlaceholder label="Add project screenshot" ratio="video" />
+                  )}
                 </div>
 
                 <div className="p-6">
@@ -125,10 +134,6 @@ export function ProjectsSection() {
             ))}
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/projects&gt;</span>
-          </div>
         </div>
       </div>
     </section>

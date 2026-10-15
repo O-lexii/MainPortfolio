@@ -52,7 +52,7 @@ export function ServicesSection() {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <span className="text-primary font-mono text-sm">&lt;services&gt;</span>
+            <span className="text-primary font-mono text-sm">Offered Services</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
               Services
             </h2>
@@ -88,10 +88,6 @@ export function ServicesSection() {
             ))}
           </div>
 
-          {/* Closing Tag */}
-          <div className="text-center mt-16 opacity-0 animate-fade-in" style={{ animationDelay: "0.8s" }}>
-            <span className="text-primary font-mono text-sm">&lt;/services&gt;</span>
-          </div>
         </div>
       </div>
     </section>
